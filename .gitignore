@@ -1,0 +1,53 @@
+# ========================================
+# Vision Agent Node - Git Ignore
+# ========================================
+
+# Data directories (DO NOT UPLOAD MRI SCANS)
+data/
+datasets/
+*.nii
+*.nii.gz
+*.tar
+*.tif
+*.dcm
+
+# Model weights (large files)
+*.pt
+*.pth
+*.h5
+*.keras
+models/
+checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Outputs
+outputs/
+runs/
+logs/
+*.log
+
+# Environment
+.env
+venv/
+env/
+.venv/
